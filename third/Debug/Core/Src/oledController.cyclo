@@ -1,0 +1,9 @@
+../Core/Src/oledController.c:18:6:opening	1
+../Core/Src/oledController.c:42:6:toggleScreen	4
+../Core/Src/oledController.c:62:6:startToggle	2
+../Core/Src/oledController.c:68:6:printDefault	1
+../Core/Src/oledController.c:88:6:printBackground	1
+../Core/Src/oledController.c:100:6:printTemperNoUpdate	1
+../Core/Src/oledController.c:109:6:printTemper	1
+../Core/Src/oledController.c:119:6:printHeaterState	2
+../Core/Src/oledController.c:129:6:MyprintHeaterState	2

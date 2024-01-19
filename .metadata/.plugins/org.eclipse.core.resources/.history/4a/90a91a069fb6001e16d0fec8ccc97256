@@ -1,0 +1,15 @@
+/*
+ * oledController.c
+ *
+ *  Created on: Jan 19, 2024
+ *      Author: user
+ */
+
+#include "oledController.h"
+
+void opening(){
+	  SSD1306_Clear();
+	  SSD1306_DrawBitmap(0,0,jimin,128,64,1);
+	  SSD1306_UpdateScreen();
+
+}

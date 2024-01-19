@@ -1,0 +1,26 @@
+/*
+ * oledController.c
+ *
+ *  Created on: Jan 19, 2024
+ *      Author: user
+ */
+
+#include "oledController.h"
+#include "jimin.h"
+
+void opening() {
+
+	SSD1306_GotoXY(0, 0);
+	SSD1306_Puts("Start!", &Font_11x18, 1);
+	SSD1306_GotoXY(10, 20);
+	SSD1306_Puts(" Pepper :)", &Font_11x18, 1);
+	SSD1306_GotoXY(22, 40);
+	SSD1306_Puts("dryer!!", &Font_11x18, 1);
+	SSD1306_UpdateScreen(); //display
+	HAL_Delay(5000);
+
+	SSD1306_Clear();
+	SSD1306_DrawBitmap(0, 0, jimin, 128, 64, 1);
+	SSD1306_UpdateScreen();
+
+}
